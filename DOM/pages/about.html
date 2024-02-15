@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>About</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="bg-blue-400 flex justify-between h-20 items-center px-4 md:px-16">
+        <a href="" class="text-lg font-bold text-orange-700">
+            Mov<span class="text-black">.it</span>
+        </a>
+        <!-- desktop nav -->
+        <nav class="hidden lg:block">
+            <a href="../index.html" class="ml-4">Home</a>
+            <a href="./shop.html" class="ml-4">Shop</a>
+            <a href="./blog.html" class="ml-4">Blog</a>
+            <a href="./about.html" class="ml-4">About</a>
+            <a href="./contact.html" class="ml-4">Contact</a>
+            <a href="./cart.html" class="ml-4">Cart</a>
+            <button class="px-8 py-1 bg-orange-600 rounded-xl ml-8">Login</button>
+        </nav>
+        <!-- mobile nav -->
+        <nav id="mobile-nav" class="hide lg:hidden">
+            <a href="../index.html" class="block ml-16 my-4  lg:ml-4">Home</a>
+            <a href="./shop.html" class="block ml-16 my-4  lg:ml-4">Shop</a>
+            <a href="./blog.html" class="block ml-16 my-4  lg:ml-4">Blog</a>
+            <a href="./about.html" class="block ml-16 my-4  lg:ml-4">About</a>
+            <a href="./contact.html" class="block ml-16 my-4  lg:ml-4">Contact</a>
+            <a href="./cart.html" class="block ml-16 my-4  lg:ml-4">Cart</a>
+            <button class="px-8 py-1 bg-orange-600 rounded-xl ml-16 lg:ml-8">Login</button>
+        </nav>
+        <svg viewBox="0 0 100 80" width="30" height="30" class="lg:hidden" onclick="displayMobileNav()">
+            <rect width="100" height="20" rx="10"></rect>
+            <rect y="30" width="100" height="20" rx="10"></rect>
+            <rect y="60" width="100" height="20" rx="10"></rect>
+            </svg>
+    </header>
+    <main>
+        <section class="about hero-container">
+            <div class="read">
+                <h1 class="more text-center ">#KnowUs</h1>
+                <p class="all">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </section>
+
+      <!-- Bom's task -->
+      <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p class="font-bold text-[#64748b]"> Get E-mail update about our latest shop and
+               <span class="Boms">special offers.</span> 
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+</main>
+<footer>
+
+
+
+    <div class="footer-md">
+        
+        <div class="py-8">
+            <a href="" class="text-lg font-bold text-orange-700 text-6xl">
+                Mov<span class="text-black">.it</span>
+            </a>
+            <h4 class="font-bold mt-8 mb-8">Contact</h4>
+            <p class="hover:text-[#4A9F9D]"><b>Address:</b> 562 Wellington Road, Street 32. San Francisco</p>
+            <p class="hover:text-[#4A9F9D]"><b>Phone:</b> +012222365 / (+91) 0123456789</p>
+            <p class="hover:text-[#4A9F9D]"><b>Hours:</b> 10:00 - 18:00. Mon - Sat</p>
+            <h4 class="font-bold mt-4 mb-4">Follow</h4>
+            <i class="fa fa-facebook-f" aria-hiden="true"></i>
+            <i class="fa fa-twitter" aria-hiden="true"></i>
+            <i class="fa fa-instagram" aria-hiden="true"></i>
+            <i class="fa fa-pinterest" aria-hiden="true"></i>
+            <i class="fa fa-youtube" aria-hiden="true"></i>
+        </div>
+
+        <div>
+            <h4 class="font-bold mt-8 mb-8">About</h4>
+            <p class="hover:text-[#4A9F9D]">About Us</p>
+            <p class="hover:text-[#4A9F9D]">Delivery Information</p>
+            <p class="hover:text-[#4A9F9D]">Privacy Policy</p>
+            <p class="hover:text-[#4A9F9D]">Terms & Conditions</p>
+            <p class="hover:text-[#4A9F9D]">Contact Us</p>
+        </div>
+
+        <div>
+            <h4 class="font-bold mt-8 mb-8"> My Account</h4>
+           <p class="hover:text-[#4A9F9D]">Sign In</p>
+           <p class="hover:text-[#4A9F9D]">View Cart</p>
+           <p class="hover:text-[#4A9F9D]">My Wishlist</p>
+           <p class="hover:text-[#4A9F9D]">Track My Order</p>
+           <p class="hover:text-[#4A9F9D]">Help</p>
+        </div>
+
+        <div>
+            <h4 class="font-bold mt-8 mb-8">Install App</h4>
+            <p class="hover:text-[#4A9F9D] mt-4 mb-4">Form App Store or Google Play</p>
+            <div class="flex items-center justify-between ">
+                <img src="./images/pay/app.jpg" alt="" class="border-solid border-2 border-green-600 rounded-lg">
+                <img src="./images/pay/play.jpg" alt="" class="border-solid border-2 border-green-600 rounded-lg">
+            </div>
+            <p class="hover:text-[#4A9F9D] mt-4 mb-4">Secured Payment Gateways</p>
+            <img src="./images/pay/pay.png" alt="">
+        </div>
+        
+    </div>
+        <p class="flex justify-center mt-4 mb-8">&copy;2024. <span class="text-green-600 font-bold">Valentine Oshoke</span> -the front-end developer.</p>
+        
+</footer>
+<script src="./js/main.js"></script>
+    
+</body>
+</html>

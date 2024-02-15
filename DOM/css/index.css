@@ -1,0 +1,359 @@
+/* reset-css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.show {
+    display: block;
+    height:60px;
+    position: absolute; 
+    top: 80px; 
+    left:0;
+}
+
+/* hero-section */
+.hero-section {
+    background-image: url("../images/hero4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-btn {
+    background-image: url("../images/button.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: #c9671d;
+    font-weight: 600;
+}
+
+/* Nkiru's styling */
+
+.assign {
+    background-image: url("../images/banner/b2.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height:40vh;
+    position: relative;
+    top: 50px;
+
+}
+.Repair{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.up-to{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.span1{
+    color: red;
+}
+
+.btn1{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    justify-content: center;
+    
+}
+.asset{
+    margin-top: 25px;
+}
+
+
+/* Victor's styling for features section*/
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+.div-1{
+    border: 1px solid #D9ECDC;
+    /* width: 180px; */
+    /* height: 200px; */
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-1:hover{
+    box-shadow: 15px 10px 20px rgb(237, 209, 243);
+}
+
+.free{
+    background-color: #FDDDE4;
+}
+
+.online{
+    background-color: #CDEBBC;
+    
+}
+
+.save{
+    background-color: #D1EF82;
+
+}
+
+.promo{
+    background-color: #CDD4F8;
+
+}   
+
+.happy{
+    background-color: #F6DBF6;
+}
+
+.f24{
+    background-color: #FAEDE0;
+
+}
+.btn{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    color:#4A9F9D;
+    font-weight: 500;
+    padding: 5px;
+}
+
+/* Bom's task - My newsletter */
+#newsletter {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+.section-m1 {
+    margin: 40px 0;
+}
+.section-p1 {
+    padding: 40px 3rem;
+}
+
+#newsletter span {
+    color: #7e601c;
+    cursor: pointer;
+}
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+#newsletter .form {
+    display: flex;
+    width: 45%;
+}
+#newsletter input {
+    width: 100%;
+    height: 2.7rem;
+    padding: 0 1em;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newsletter button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 30%
+}
+
+
+/* footer */
+.footer-md {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* big victor */
+.orangeclothe{
+    border: 1px solid red;
+    background-image: url("../images/banner/b17.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 550px;
+    background-size: cover;
+    height: 350px;
+}
+
+.ashclothe{
+    background-image: url("../images/banner/b10.jpg");
+    background-repeat: no-repeat;
+    width: 550px;
+    background-size: cover;
+    background-position-x: center;
+    height: 350px;
+}
+
+/* 
+.banner > div > .cover > h6 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.banner > div > .cover > h3{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 18px;
+}
+
+.cover{
+    margin-top: 50px;
+}
+.banner > div > .cover > p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+} */
+
+.learnmore{
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.learnmore:hover{
+    background-color: rgb(37, 66, 37);
+    border-color: transparent;
+}
+
+.threepicssection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bluepics{
+    background-image: url("../images/banner/b7.jpg");
+    width: 370.5px;
+    /* height: 500px; */
+    background-size: cover;
+    padding-left: 20px;
+    margin: 0px 0px 20px;
+    background-repeat: no-repeat;
+}
+
+
+.graypics{
+    background-image: url("../images/banner/b4.jpg");
+    width: 405px;
+    /* height: 200px; */
+    padding-left: 20px;
+    margin: 0px 0px 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.lastcard{
+    background-image: url("../images/banner/b18.jpg");
+    width: 349.44px;
+    /* height: 200px; */
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    margin: 0px 0px 20px;
+    background-size: cover;
+}
+
+
+/* Nkiru's hero styling */
+/* another one */
+
+.read-sec {
+    background-image: url("../images/banner/b19.jpg");
+}
+
+
+.hero-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 250px;
+}
+.all{
+    color: white;
+    font-size: 20px;
+}
+
+.more{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.about {
+    background-image: url("../images/banner/about/banner.png");
+}
+
+/* contact page styling-Boms */
+#contact-form form span {
+    font-size: 10px;
+    color: #6b6b6b;
+}
+#contact-form form h2 {
+    font-size: 26px;
+    line-height: 25px;
+    padding: 20px 0;
+}
+#contact-form form input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 1rem;
+    outline: none;
+    border: 1px solid #6b6b6bc8;
+}
+/*#contact-form form input,*/
+#contact-form-submit {
+    background-color: #088178;
+    color: #fff;
+    margin-top: 1rem;
+    border: 1px solid #088178;
+}
+
+
+
+

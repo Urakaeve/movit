@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mov.it | Our Shop</title>
+</head>
+<body class="">
+    <!-- Navbar -->
+    <header class="bg-blue-400 flex justify-between h-20 items-center px-4 md:px-16">
+        <a href="" class="text-lg font-bold text-orange-700">
+            Mov<span class="text-black">.it</span>
+        </a>
+        <!-- desktop nav -->
+        <nav class="hidden lg:block">
+            <a href="../index.html" class="ml-4">Home</a>
+            <a href="./shop.html" class="ml-4">Shop</a>
+            <a href="./blog.html" class="ml-4">Blog</a>
+            <a href="./about.html" class="ml-4">About</a>
+            <a href="./contact.html" class="ml-4">Contact</a>
+            <a href="./cart.html" class="ml-4">Cart</a>
+            <button class="px-8 py-1 bg-orange-600 rounded-xl ml-8">Login</button>
+        </nav>
+        <!-- mobile nav -->
+        <nav id="mobile-nav" class="hide lg:hidden">
+            <a href="../index.html" class="block ml-16 my-4  lg:ml-4">Home</a>
+            <a href="./shop.html" class="block ml-16 my-4  lg:ml-4">Shop</a>
+            <a href="./blog.html" class="block ml-16 my-4  lg:ml-4">Blog</a>
+            <a href="./about.html" class="block ml-16 my-4  lg:ml-4">About</a>
+            <a href="./contact.html" class="block ml-16 my-4  lg:ml-4">Contact</a>
+            <a href="./cart.html" class="block ml-16 my-4  lg:ml-4">Cart</a>
+            <button class="px-8 py-1 bg-orange-600 rounded-xl ml-16 lg:ml-8">Login</button>
+        </nav>
+        <svg viewBox="0 0 100 80" width="30" height="30" class="lg:hidden" onclick="displayMobileNav()">
+            <rect width="100" height="20" rx="10"></rect>
+            <rect y="30" width="100" height="20" rx="10"></rect>
+            <rect y="60" width="100" height="20" rx="10"></rect>
+            </svg>
+    </header>
+    <main class="container">
+        
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

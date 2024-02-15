@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "./images/products/f1.jpg",
+        "category": "addidas",
+        "productName": "Cartoon Astronaut T-Shirt",
+        "price": 75
+    },
+    {
+        "id": 2,
+        "imgSrc": "./images/products/f2.jpg",
+        "category": "addidas",
+        "productName": "Cartoon Space T-Shirt",
+        "price": 79
+    },
+    {
+        "id": 3,
+        "imgSrc": "./images/products/f3.jpg",
+        "category": "addidas",
+        "productName": "Spoonge Universe T-Shirt",
+        "price": 77
+    },
+    {
+        "id": 4,
+        "imgSrc": "./images/products/f4.jpg",
+        "category": "addidas",
+        "productName": "Summer Sweat T-Shirt",
+        "price": 100
+    },
+    {
+        "id": 5,
+        "imgSrc": "./images/products/f5.jpg",
+        "category": "addidas",
+        "productName": "Multi-Colored T-Shirt",
+        "price": 60
+    },
+    {
+        "id": 6,
+        "imgSrc": "./images/products/f6.jpg",
+        "category": "addidas",
+        "productName": "Two-Colored T-Shirt",
+        "price": 115
+    },
+    {
+        "id": 7,
+        "imgSrc": "./images/products/f7.jpg",
+        "category": "addidas",
+        "productName": "Bongo Trouser",
+        "price": 78
+    },
+    {
+        "id": 8,
+        "imgSrc": "./images/products/f8.jpg",
+        "category": "addidas",
+        "productName": "V-neck Blouse",
+        "price": 100
+    }
+]

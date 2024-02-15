@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/31ed63b7ab.js" crossorigin="anonymous"></script>
+    <title>Mov.it | Contact us</title>
+</head>
+
+<body class="">
+    <!-- Navbar -->
+    <header class="bg-blue-400 flex justify-between h-20 items-center px-4 md:px-16">
+        <a href="" class="text-lg font-bold text-orange-700">
+            Mov<span class="text-black">.it</span>
+        </a>
+        <!-- desktop nav -->
+        <nav class="hidden lg:block">
+            <a href="../index.html" class="ml-4">Home</a>
+            <a href="./shop.html" class="ml-4">Shop</a>
+            <a href="./blog.html" class="ml-4">Blog</a>
+            <a href="./about.html" class="ml-4">About</a>
+            <a href="./contact.html" class="ml-4">Contact</a>
+            <a href="./cart.html" class="ml-4">Cart</a>
+            <button class="px-8 py-1 bg-orange-600 rounded-xl ml-8">Login</button>
+        </nav>
+        <!-- mobile nav -->
+        <nav id="mobile-nav" class="hide lg:hidden">
+            <a href="../index.html" class="block ml-16 my-4  lg:ml-4">Home</a>
+            <a href="./shop.html" class="block ml-16 my-4  lg:ml-4">Shop</a>
+            <a href="./blog.html" class="block ml-16 my-4  lg:ml-4">Blog</a>
+            <a href="./about.html" class="block ml-16 my-4  lg:ml-4">About</a>
+            <a href="./contact.html" class="block ml-16 my-4  lg:ml-4">Contact</a>
+            <a href="./cart.html" class="block ml-16 my-4  lg:ml-4">Cart</a>
+            <button class="px-8 py-1 bg-orange-600 rounded-xl ml-16 lg:ml-8">Login</button>
+        </nav>
+        <svg viewBox="0 0 100 80" width="30" height="30" class="lg:hidden" onclick="displayMobileNav()">
+            <rect width="100" height="20" rx="10"></rect>
+            <rect y="30" width="100" height="20" rx="10"></rect>
+            <rect y="60" width="100" height="20" rx="10"></rect>
+        </svg>
+    </header>
+    <main class="">
+        <section class="about hero-container">
+            <div class="read">
+                <h1 class="more text-center ">#Let's_Talk</h1>
+                <p class="all">Leave A Message - we love to hear you!</p>
+            </div>
+        </section>
+
+        <section class="location py-[40px] px-[3rem] flex justify-between">
+            <div class="get-in-touch w-[42%]">
+                <h6 class="text-[12px] text-[#6b6b6b]">GET IN TOUCH</h6>
+                <h5 class="text-[26px] py-[20px] font-[700] text-[#222]">Visit one of our agency locations or contact us
+                    today</h5>
+                <h6 class="text-[16px] pb-[10px] font-[700]">Head Office</h6>
+                <div class="flex gap-3 items-center py-[10px]">
+                    <i class="fa fa-map"></i>
+                    <p>56 Glassford street Glasgow G1 1UL New York</p>
+                </div>
+                <div class="flex gap-3 items-center py-[10px]">
+                    <i class="fa fa-envelope"></i>
+                    <p>contact@example.com</p>
+                </div>
+                <div class="flex gap-3 items-center py-[10px]">
+                    <i class="fa fa-phone fa-rotate-270"></i>
+                    <p>+9170058691</p>
+                </div>
+                <div class="flex gap-3 items-center py-[10px]">
+                    <i class="fa fa-clock"></i>
+                    <p>Monday - Saturday: 9:00am to 16:00pm</p>
+                </div>
+            </div>
+            <div class="web-locate w-[52%]">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127221.37882979658!2d6.923999605744948!3d4.8269331899114825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cfd028acfc31%3A0xf48c2edca3957ad6!2sSpital%20Labs!5e0!3m2!1sen!2sng!4v1707992619389!5m2!1sen!2sng"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section id="contact-form" class="flex justify-between">
+            <form action="#" class="w-[500px]">
+                <span><b>LEAVE A MESSAGE</b></span>
+                <h2><b>We love to hear from you</b></h2>
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="E-mail">
+                <input type="text" id="subject" placeholder="Subject">
+                <textarea id="textarea" class="w-full border h-[100px] border-black mt-4"
+                    placeholder="Your Messsage"></textarea>
+                <button id="contact-form-submit" class="normal px-8 py-2">Submit</button>
+            </form>
+            <div class="people w-[350px]">
+                <div class="person flex">
+                    <img src="./images/people/1.png" alt="John Doe">
+                    <div class="ml-4">
+                        <h4 class="font-bold">John Doe</h4>
+                        <p class="text-sm">Senior Marketing Manager</p>
+                        <p class="text-sm">Phone: + 000 123 000 77 88</p>
+                        <p class="text-sm">Email: johndoe@gmail.com</p>
+
+
+                    </div>
+                </div>
+                <div>
+                    <div class="person flex my-8">
+                        <img src="./images/people/2.png" alt="Wlliam Smith">
+                        <div class="ml-4">
+                            <h4 class="font-bold">William Smith</h4>
+                            <p class="text-sm">Senior Marketing Manager</p>
+                            <p class="text-sm">Phone: + 000 123 000 77 88</p>
+                            <p class="text-sm">Email: johndoe@gmail.com</p>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="person flex">
+                            <img src="./images/people/3.png" alt="Emma Stone">
+                            <div class="ml-4">
+                                <h4 class="font-bold">Emma Stone</h4>
+                                <p class="text-sm">Senior Marketing Manager</p>
+                                <p class="text-sm">Phone: + 000 123 000 77 88</p>
+                                <p class="text-sm">Email: johndoe@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>        
+
+      <!-- Bom's task -->
+      <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p class="font-bold text-[#64748b]"> Get E-mail update about our latest shop and
+               <span class="Boms">special offers.</span> 
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+</main>
+<footer>
+
+
+
+    <div class="footer-md">
+        
+        <div class="py-8">
+            <a href="" class="text-lg font-bold text-orange-700 text-6xl">
+                Mov<span class="text-black">.it</span>
+            </a>
+            <h4 class="font-bold mt-8 mb-8">Contact</h4>
+            <p class="hover:text-[#4A9F9D]"><b>Address:</b> 562 Wellington Road, Street 32. San Francisco</p>
+            <p class="hover:text-[#4A9F9D]"><b>Phone:</b> +012222365 / (+91) 0123456789</p>
+            <p class="hover:text-[#4A9F9D]"><b>Hours:</b> 10:00 - 18:00. Mon - Sat</p>
+            <h4 class="font-bold mt-4 mb-4">Follow</h4>
+            <i class="fa fa-facebook-f" aria-hiden="true"></i>
+            <i class="fa fa-twitter" aria-hiden="true"></i>
+            <i class="fa fa-instagram" aria-hiden="true"></i>
+            <i class="fa fa-pinterest" aria-hiden="true"></i>
+            <i class="fa fa-youtube" aria-hiden="true"></i>
+        </div>
+
+        <div>
+            <h4 class="font-bold mt-8 mb-8">About</h4>
+            <p class="hover:text-[#4A9F9D]">About Us</p>
+            <p class="hover:text-[#4A9F9D]">Delivery Information</p>
+            <p class="hover:text-[#4A9F9D]">Privacy Policy</p>
+            <p class="hover:text-[#4A9F9D]">Terms & Conditions</p>
+            <p class="hover:text-[#4A9F9D]">Contact Us</p>
+        </div>
+
+        <div>
+            <h4 class="font-bold mt-8 mb-8"> My Account</h4>
+           <p class="hover:text-[#4A9F9D]">Sign In</p>
+           <p class="hover:text-[#4A9F9D]">View Cart</p>
+           <p class="hover:text-[#4A9F9D]">My Wishlist</p>
+           <p class="hover:text-[#4A9F9D]">Track My Order</p>
+           <p class="hover:text-[#4A9F9D]">Help</p>
+        </div>
+
+        <div>
+            <h4 class="font-bold mt-8 mb-8">Install App</h4>
+            <p class="hover:text-[#4A9F9D] mt-4 mb-4">Form App Store or Google Play</p>
+            <div class="flex items-center justify-between ">
+                <img src="./images/pay/app.jpg" alt="" class="border-solid border-2 border-green-600 rounded-lg">
+                <img src="./images/pay/play.jpg" alt="" class="border-solid border-2 border-green-600 rounded-lg">
+            </div>
+            <p class="hover:text-[#4A9F9D] mt-4 mb-4">Secured Payment Gateways</p>
+            <img src="./images/pay/pay.png" alt="">
+        </div>
+        
+    </div>
+        <p class="flex justify-center mt-4 mb-8">&copy;2024. <span class="text-green-600 font-bold">Valentine Oshoke</span> -the front-end developer.</p>
+        
+</footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
